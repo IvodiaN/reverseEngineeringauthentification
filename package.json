@@ -1,0 +1,30 @@
+{
+  "name": "reverseengineeringauthentication",
+  "version": "1.0.0",
+  "description": "reverse Engineer Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IvodiaN/reverseEngineeringauthentification.git"
+  },
+  "author": "Ivodia N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvodiaN/reverseEngineeringauthentification/issues"
+  },
+  "homepage": "https://github.com/IvodiaN/reverseEngineeringauthentification#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.12.3",
+    "morgan": "1.10.0",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
